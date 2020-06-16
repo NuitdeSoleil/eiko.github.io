@@ -1,0 +1,22 @@
+body{
+    background-color: #777;
+}
+
+body header div#header h1{
+    color: white;
+}
+body header div#header nav ul li{
+    padding: 30px;
+    display: inline-block;
+    background-color: #313535;
+}
+body header div#header nav ul li:hover{
+    background-color: #505151;
+    color: white;
+
+}
+
+body header div#header{
+    display: flex;
+}
+
