@@ -1,22 +1,69 @@
-body{
-    background-color: #777;
+.header {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    line-height: 70px;
+    height: 70px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    z-index: 999;
 }
 
-body header div#header h1{
-    color: white;
+.header .header-logo {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    margin-left: 30px;
+    font-size: 30px;
 }
-body header div#header nav ul li{
-    padding: 30px;
-    display: inline-block;
-    background-color: #313535;
-}
-body header div#header nav ul li:hover{
-    background-color: #505151;
-    color: white;
+
+.header .header-menu {
+
+    float: right;
+    margin-right: 30px;
+
 
 }
 
-body header div#header{
-    display: flex;
+.header .header-menu a { 
+
+    margin-right: 15px;
+    color: #000000;
 }
 
+.header .header-menu a:hover {
+
+    color: #3498db;
+}
+
+.about .about-single-element .icon{
+    margin-top: 80px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.about .about-single-element {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.about .about-single-element p {
+
+    text-align: center;
+    margin-top: 80px;
+    margin-block-end: 200px;
+}
+.heading-site {
+
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    margin-top: 300px;
+    font-size: 40px;
+}
+.about .about-single-element1 {
+
+    text-align: center;
+    margin-top: 80px;
+    margin-block-end: 200px;
+}
